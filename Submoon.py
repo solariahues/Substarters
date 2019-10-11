@@ -1,10 +1,10 @@
 import discord
 from discord.ext import commands
+import tokens
+import strings
 ###more import stuff goes here
 
-### invite Substar: https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot&permissions=8 ###
-
-TOKEN = 'TOKENGOESHERE'
+### invite Submoon: https://discordapp.com/oauth2/authorize?client_id=632130020495589376&scope=bot&permissions=8 ###
 
 description = '''Substarters' bot Submoon.'''
 bot = commands.Bot(command_prefix='!', description=description)
@@ -15,4 +15,5 @@ async def on_ready():
     
 # Add stuff here
 
-bot.run(TOKEN)
+bot.run(tokens.Submoon)
+
