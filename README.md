@@ -1,6 +1,6 @@
 # Substarters
 
-Open source bot collection used in the Substarters Discord community.
+Bot collection used in the Substarters Discord community.
 
 The project will be divided into several sub-projects based on the "personality" of the bot within the Substarters theme.
 
