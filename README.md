@@ -4,26 +4,27 @@ Bot collection used in the Substarters Discord community.
 
 The project will be divided into several sub-projects based on the "personality" of the bot within the Substarters theme.
 
-* **Substar**:   The star of our community who is in charge of community management. 
+* **Substar**:   The star and face of our community who is in charge of community management. 
 
-* **Submoon**:   The assistant in charge of advertisement and public relations.
+* **Submoon**:   The big sister in charge of advertisement and public relations. She collects data and finds new members and subreddits.
 
-* **Subsolar**:  The little sister with no added value other than being super adorable.
+* **Subsolar**:  The little sister whose main purpose is being super adorable. She'll help you by looking up information and sharing it with you.
 
-* **Subcomet**:  The punk type rebel with a cause. He will go out and collect data through surveys, polls and observation.
+* **Subcomet**:  The punk type rebel with a cause. He gives the community a voice through feedback, polls and surveys.
 
 ## Substar
 
-- No content yet.
+- `!hello` will have the bot introduce himself.
 
 ## Submoon
 
-- No content yet.
+- `!hello` will have the bot introduce herself.
 
 ## Subsolar
 
-- No content yet.
+- `!hello` will have the bot introduce herself.
 
 ## Subcomet
 
-- No content yet.
+- `!hello` will have the bot introduce himself.
+- `!survey` will let you know if there is a survey we'd like you to fill out right now.
