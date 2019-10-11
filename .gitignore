@@ -105,3 +105,4 @@ venv.bak/
 
 #personal bot tokens
 tokens.py
+tokens.json
