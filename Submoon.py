@@ -15,5 +15,9 @@ async def on_ready():
     
 # Add stuff here
 
+@bot.command()
+async def hello(ctx):
+    await ctx.send(strings.hellomoon)
+    
 bot.run(tokens.Submoon)
 

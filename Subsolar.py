@@ -13,6 +13,26 @@ bot = commands.Bot(command_prefix='!', description=description)
 async def on_ready():
     print(bot.user.name + ' is running.')
     
-# Add stuff here
+# This stuff works
+
+@bot.command()
+async def hello(ctx):
+    await ctx.send(strings.hellosolar)
+    
+        
+# Creates a temporary role and channel
+
+@bot.command(help="Adds a temporary channel and exclusive role.")
+@commands.has_permissions(administrator=True)
+async def add(ctx, request):
+  guild = ctx.guild
+
+  if request == "temp":
+    temprole = await guild.create_role(name="Temp Role")
+    modsow = {
+    guild.default_role: discord.PermissionOverwrite(read_messages=False),
+    temprole: discord.PermissionOverwrite(read_messages=True)
+    }
+    temp = await guild.create_text_channel("temp-channel", overwrites=modsow)
 
 bot.run(tokens.Subsolar)
