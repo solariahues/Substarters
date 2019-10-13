@@ -14,13 +14,13 @@ The project will be divided into several sub-projects based on the "personality"
 
 ## Substar
 
+- sends a welcome message in #welcome when a member joins the server.
+- sends a welcome message in #general when a member verifies their account with Reddify.
+- sends a message in #user-traffic when a member joins or leaves the server, or verifies their account with Reddify.
 - `!hello` will have the bot introduce himself.
 - `!clear #` will remove # unpinned messages from the channel.
 - `!nuke` will remove all unpinned messages from the channel.
-
-Coming soon:
-- Welcome message when a person joins the server's welcome chat.
-- Second welcome message when a person is verified as a Redditor and joins the server for real.
+- `!temp` will add a temporary role and channel to give out for a quick private chat.
 
 ## Submoon
 
@@ -29,10 +29,9 @@ Coming soon:
 ## Subsolar
 
 - `!hello` will have the bot introduce herself.
-- `!temp` will add a temporary role and channel to give out for a quick private chat.
 
 ## Subcomet
 
 - `!hello` will have the bot introduce himself.
-- `!feedback` will send your message to the moderators.
-- `!survey` will let you know if there is a survey we'd like you to fill out right now.
+- `!feedback` (in any channel or in PM) will send your message to the moderators.
+- `!survey` will let you know if there are any surveys we'd like you to fill out right now.
