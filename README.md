@@ -15,6 +15,12 @@ The project will be divided into several sub-projects based on the "personality"
 ## Substar
 
 - `!hello` will have the bot introduce himself.
+- `!clear #` will remove # unpinned messages from the channel.
+- `!nuke` will remove all unpinned messages from the channel.
+
+Coming soon:
+- Welcome message when a person joins the server's welcome chat.
+- Second welcome message when a person is verified as a Redditor and joins the server for real.
 
 ## Submoon
 
@@ -23,8 +29,10 @@ The project will be divided into several sub-projects based on the "personality"
 ## Subsolar
 
 - `!hello` will have the bot introduce herself.
+- `!temp` will add a temporary role and channel to give out for a quick private chat.
 
 ## Subcomet
 
 - `!hello` will have the bot introduce himself.
+- `!feedback` will send your message to the moderators.
 - `!survey` will let you know if there is a survey we'd like you to fill out right now.
