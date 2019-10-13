@@ -1,0 +1,1 @@
+Hi there, {}! Welcome to **Substarters!** Please use `!verify` to get access to the rest of the server!

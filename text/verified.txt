@@ -1,0 +1,14 @@
+Hey there, {0.mention}!
+
+Thanks for verifying your Reddit account with Reddify!
+You now have access to the rest of Substarters! Yay!
+
+**Some things you can do:**
+- Change your nickname to something cool with `!nick`.
+- Introduce yourself in <#{1}>.
+- Hang out with us in <#{2}>.
+- Find out more about our bots by typing `!help` in <#{3}>.
+
+We're happy to have you! Welcome to Substarters!
+
+-Substar & the Substarters team

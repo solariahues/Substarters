@@ -1,23 +1,33 @@
 import discord
 from discord.ext import commands
-import tokens
-import strings
-###more import stuff goes here
+import sbs_tokens as token
+import sbs_ids as sbsid
 
 ### invite Submoon: https://discordapp.com/oauth2/authorize?client_id=632130020495589376&scope=bot&permissions=8 ###
 
 description = '''Substarters' bot Submoon.'''
 bot = commands.Bot(command_prefix='!', description=description)
 
+### General bot stuff ###
 @bot.event
 async def on_ready():
     print(bot.user.name + ' is running.')
-    
+
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(discord.ext.commands.errors.CommandNotFound):
+        pass
+
+### Subcommands ###
+def getText(name):
+    with open("text/{}.txt".format(name), encoding="utf8") as f:
+        return f.read()
+
 # Add stuff here
 
-@bot.command()
+@bot.command(help="Say hello.")
 async def hello(ctx):
-    await ctx.send(strings.hellomoon)
+    await ctx.send(getText("hellomoon"))
     
-bot.run(tokens.Submoon)
+bot.run(token.Submoon)
 

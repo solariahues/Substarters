@@ -1,0 +1,3 @@
+#General
+yes = "✔"
+no = "❌"

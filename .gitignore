@@ -103,7 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-#personal bot tokens
-tokens.py
-roles.py
-channels.py
+#personal bot tokens and ids
+sbs_tokens.py
+sbs_ids.py
