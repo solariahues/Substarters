@@ -1,1 +1,3 @@
-Hi there, {}! Welcome to **Substarters!** Please use `!verify` to get access to the rest of the server!\n\n <:blank:631946877604200469>
+Hi there, {}! Welcome to **Substarters!** Please type `!verify` followed by your reddit username to get access to the rest of the server! It only takes a minute.
+
+Then join in the chat, and give & receive advice on subreddit moderation.\n\n <:blank:631946877604200469>
